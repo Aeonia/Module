@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "modify-page",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*","*://danstonchat.com/*","*://9gag.com/*","*://*.asos.fr/*","*://*.zalando.fr/*"],
+      "js": ["page-eater.js"]
+    }
+  ]
+
+}
